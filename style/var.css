@@ -1,0 +1,50 @@
+:root{
+    --max-width: 1106px;
+    --max-height: 801px;
+
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+
+    --family: 'Inter', sans-serif;
+
+    /* font weight */
+    --regular: 400;
+    --bold: 700;
+    --extra-bold: 800;
+
+    /* font sizes */
+    --main-title-size: 3.4rem;
+    --section-title-size: 2.5rem;
+    --section-bottom-title-size: 1.8rem;
+    --article-title-size: 1.2rem;
+    --article-bottom-title-size: 1.1rem;
+    --nav-links-size: 1.06rem;
+    --paragraph-size: 0.94rem;
+    --button-size: 0.9rem;
+    
+    --main-title: var(--main-title-size) var(--family);
+    --section-title: var(--section-title-size) var(--family);
+    --section-bottom-title: var(--section-bottom-title-size) var(--family);
+    --article-title: var(--article-title-size) var(--family);
+    --article-bottom-title: var(--article-bottom-title-size) var(--family);
+    --nav-links: var(--nav-links-size) var(--family);
+    --paragraph: var(--paragraph-size) var(--family);
+    --button: var(--button-size) var(--family);
+}
+
+@media (max-width: 376px) {
+    :root {
+        --main-title-size: 2.35rem;
+        --section-title-size: 1.5rem;
+        --section-bottom-title-size: 1.5rem;
+        --article-title-size: 0.9rem;
+        --article-bottom-title-size: 0.9rem;
+        --nav-links-size: 0.9rem;
+        --paragraph-size: 0.9rem;
+        --button-size: 0.7rem;
+    }
+}
